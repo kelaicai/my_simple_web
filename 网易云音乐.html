@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+			
+			
+			<script>
+			function $(id)
+			{
+				return document.getElementById(id);
+			}
+			function displayTime(){
+			$("clock").innerHTML="<b>"+(new Date).toLocaleString()+"</b>";
+		}
+			
+//			function init()
+//			{
+//				displayTime();
+//				setTimeout(init,1000);
+//			}
+			function init()
+			{
+				window.moveTo(10,10);
+				window.resizeTo(100,100);
+			}
+			function move()
+			{
+				window.moveBy(10,10);
+				window.resizeBy(10,10);
+			}
+		</script>
+		
+		<title></title>
+	</head>
+	<body background="images/img/109951163608462949.jpg">
+		
+		<div onload="init()">
+			
+			<b onclick="setInterval(move,100)">这个窗口会移动还会变大</b>
+		</div>
+		<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=526412160&auto=0&height=66"></iframe>
+		<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=526412160&auto=0&height=66"></iframe>
+		<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=526412160&auto=0&height=66"></iframe>
+		<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=26082104&auto=0&height=66"></iframe>
+		<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=26082105&auto=0&height=66"></iframe>
+		<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=423776482&auto=0&height=66"></iframe>
+		<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=423776483&auto=0&height=66"></iframe>
+		<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=423776484&auto=0&height=66"></iframe>
+		<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=423776485&auto=0&height=66"></iframe>
+		<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=423776486&auto=0&height=66"></iframe>
+		<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=423776478&auto=0&height=66"></iframe>
+		<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=423776400&auto=0&height=66"></iframe>
+		
+	</body>
+	
+</html>
